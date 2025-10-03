@@ -2,7 +2,7 @@
 
 ### Why Use Juice-Shop
 --------------------------------
-Juice-Shop is one of the best test-environments when it comes to web-app penetration testing. It structures itself extremely well, progressing from easy to hard and carry concepts from the last excercise to the more advanced one. It's a progression that feels natural, challenging, and well-rounded. I highly recommend it to anyone and the skills will certainly pay-off when it comes to finding bug-bounties in almost any web-app. From low level bugs to critical remote code executions. 
+Juice-Shop is one of the best test-environments when it comes to web-app penetration testing. It structures itself extremely well, progressing from easy to hard and carries concepts from the last excercise to the more advanced one. It's a progression that feels natural, challenging, and well-rounded. I highly recommend it to anyone and the skills will certainly pay-off when it comes to finding bug-bounties in almost any web-app. From low level bugs to critical remote code executions. 
 ##### Note that I won't cover installation as there are already guides available through OWASP that are more than sufficient.
 ##### Note that I'm using Kali Linux. I recommend you do too.
 
