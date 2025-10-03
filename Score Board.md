@@ -5,19 +5,19 @@ Find the carefully hidden 'Score Board' page.
 
 Here we go on Juice-Shop's first challenge! This introduces the very first concepts involved in recon. I would encourage you to stop reading here and spend 15 or so minutes with no guidance looking around and trying to find it! *
 
-*Note that as i progress I use <URL>. This is a placeholder for whatever IP address or site address you may be using depending on how you set up Juice-Shop, eg. mine is http://192.168.1.3/#/ on the landing page.
+*Note that as i progress I use `<URL>`. This is a placeholder for whatever IP address or site address you may be using depending on how you set up Juice-Shop, eg. mine is `http://192.168.1.3/#/` on the landing page.
 
 ### First Guidance (No Solutions)
 If you're struggling, like I did, the first tool, which we will be relying on a lot is the developer tools in your browser of choice. I'm in firefox, Kali's default, so whatever specific instructions I give here you may need to adapt for another browser. Try opening up the Debugger section and have a poke around the files there. The .js files are what power the website and contain key information we'll be using throughout the challenge. Try looking for any URLs or paths. Use ctrl F to specify search terms.
 
 ### Second Guidance (More Specific)
-The file you should concentrate your effort on is main.js. This is the key blueprint for the website and responisble for stitching together and using all the other files. Search for "path" and look for lines that have "component" on the next line. The string in single quotes are things you should try plugging into your URL bar.
+The file you should concentrate your effort on is `main.js`. This is the key blueprint for the website and responisble for stitching together and using all the other files. Search for "path" and look for lines that have "component" on the next line. The string in single quotes are things you should try plugging into your URL bar.
 
 ### Last Guidance
-If you still haven't found the solution by the time you get here, we're in the same boat. What you may be trying is <URL>/score-board, but when you press enter it turns into <URL>/score-board#/. In fact, when you first load the site you'll see <URL>/#/. This site uses angular. I'll explain it more later, but try mixing in the # in different positions related to score-board.
+If you still haven't found the solution by the time you get here, we're in the same boat. What you may be trying is `<URL>/score-board`, but when you press enter it turns into `<URL>/score-board#/`. In fact, when you first load the site you'll see `<URL>/#/`. This site uses angular. I'll explain it more later, but try mixing in the # in different positions related to score-board.
 
 ### Solution
-<URL>/#/score-board
+`<URL>/#/score-board`
 
 Welcome to the Score Board! Your very first challenge is done and now we can keep track of your progress and select which challenges we want to tackle next! Notice that we get names, descriptions, hints, and sometimes hacking instructor and coding challenges.
 
